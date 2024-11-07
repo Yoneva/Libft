@@ -6,7 +6,7 @@
 #    By: amsbai <amsbai@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/22 13:16:23 by amsbai            #+#    #+#              #
-#    Updated: 2024/11/07 23:17:17 by amsbai           ###   ########.fr        #
+#    Updated: 2024/11/07 23:51:02 by amsbai           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ HEADER = libft.h
 # prerequisite
 all: $(NAME)
 
-$(NAME): $(OBJS) 
+$(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
 	
 .c.o:

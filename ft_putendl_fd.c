@@ -6,7 +6,7 @@
 /*   By: amsbai <amsbai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 03:16:41 by amsbai            #+#    #+#             */
-/*   Updated: 2024/11/02 17:21:08 by amsbai           ###   ########.fr       */
+/*   Updated: 2024/11/07 23:41:51 by amsbai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	int	i;
-
-	i = 0;
 	ft_putstr_fd(s, fd);
 	write(fd, "\n", 1);
 }

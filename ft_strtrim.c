@@ -6,7 +6,7 @@
 /*   By: amsbai <amsbai@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 05:11:41 by amsbai            #+#    #+#             */
-/*   Updated: 2024/11/06 18:43:12 by amsbai           ###   ########.fr       */
+/*   Updated: 2024/11/07 23:32:08 by amsbai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	char	*str;
 
 	i = 0;
+	if (!s1 || !set)
+		return (NULL);
 	i = counting_i(s1, set, i);
 	j = 0;
 	s1len = ft_strlen(s1);
