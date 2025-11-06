@@ -73,7 +73,7 @@ Reimplementation of standard C library functions:
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/libft.git
+git clone https://github.com/Yoneva/libft.git
 cd libft
 ```
 
